@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": ".bib file of all references"
+  },
+  {
+    "objectID": "resources.html#books-well-read",
+    "href": "resources.html#books-well-read",
+    "title": "Resources",
+    "section": "Books we’ll read",
+    "text": "Books we’ll read\n\nBayes Rules\n\nAlicia A. Johnson,, Miles Q. Ott, and Mine Dogucu. Bayes Rules! An Introduction to Applied Bayesian Modeling (Johnson, Ott, and Dogucu 2022)\n\nOfficial links:\n\n Book page (and the entire book itself)\n Project page\n Teaching resources\n R package and package documentation\n Alicia Johnson, “Bayes Rules! An Introduction to Bayesian Modeling with R with Alicia Johnson”, presentation for R-Ladies Philly on October 18, 2021"
+  },
+  {
+    "objectID": "resources.html#articles-well-read",
+    "href": "resources.html#articles-well-read",
+    "title": "Resources",
+    "section": "Articles we’ll read",
+    "text": "Articles we’ll read\n\n Kruschke, John K., and Torrin M. Liddell. “The Bayesian New Statistics: Hypothesis Testing, Estimation, Meta-Analysis, and Power Analysis from a Bayesian Perspective” (Kruschke and Liddell 2018)\n Kruschke, John K. “Bayesian Estimation Supersedes the t Test.” (Kruschke 2013)\nMore to come!"
+  },
+  {
+    "objectID": "resources.html#other-books",
+    "href": "resources.html#other-books",
+    "title": "Resources",
+    "section": "Other books",
+    "text": "Other books\nWe don’t have time to cover these this semester, but these are all really great and useful resources!\n\nStatistical Rethinking\n\nRichard McElreath, Statistical Rethinking: A Bayesian Course with Examples in R and Stan (McElreath 2020)\n\nOfficial links:\n\n Book page\n R package\n 2022 lecture videos\n 2022 lecture slides and homework and answers\n\nTranslations:\n\n A. Solomon Kurz, Statistical Rethinking with brms, ggplot2, and the tidyverse: Second edition (Kurz 2021)\n Vincent Arel-Bundock, Statistical Rethinking 2 with Stan and R, (Arel-Bundock 2020)\n\n\n\nOther books\n\n John K. Kruschke, Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan (Kruschke 2015)\n\n Website\n A. Solomon Kurz, Doing Bayesian Data Analysis in brms and the tidyverse, translation to brms (Kurz 2022)\n\n Ben Lambert, A Student’s Guide to Bayesian Statistics (Lambert 2018)\n Andrew Gelman, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin, Bayesian Data Analysis (Gelman et al. 2013)\n Allen B. Downey, Think Bayes 2 (Downey 2021)"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Week\nDay\nTopic\nBayes Rules\n\n\n\n\n1\nJanuary ZZZ\nIntroduction to Bayesian thinking\n1\n\n\n2\n\nStarting with Bayes’ rule\n2\n\n\n3\n\nThe beta-binomial Bayesian model\n3\n\n\n4\n\nConjugate families\n4–5\n\n\n5\n\nApproximating the posterior with MCMC\n6–7\n\n\n6\n\nPosterior inference and prediction\n8\n\n\n7\n\nBayesian regression\n9–11\n\n\n8\n\nPoisson and negative binomial regression\n12\n\n\n9\n\nLogistic regression\n13\n\n\n10\n\nMultilevel models I\n15\n\n\n11\n\nMultilevel models II\n16\n\n\n12\n\nMultilevel models III\n17\n\n\n13\n\nMultilevel models IV\n18–19\n\n\n14\n\nMovable catch-up breather week\n—"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "By the end of this readings course, you will be literate in the language of Bayesian inference and will be able to correctly run Bayesian models using Stan and rstanarm and brms."
+  },
+  {
+    "objectID": "syllabus.html#course-materials",
+    "href": "syllabus.html#course-materials",
+    "title": "Syllabus",
+    "section": "Course materials",
+    "text": "Course materials\n\nBooks\nWe’ll be working through one textbook throughout the semester:\n\nAlicia A. Johnson, Miles Q. Ott, and Mine Dogucu, Bayes Rules! An Introduction to Applied Bayesian Modeling (available online for free!)\n\n\n\nArticles, book chapters, and other materials\nThere will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the page for that week."
+  },
+  {
+    "objectID": "syllabus.html#course-structure",
+    "href": "syllabus.html#course-structure",
+    "title": "Syllabus",
+    "section": "Course structure",
+    "text": "Course structure\nWe’ll meet weekly on WEEKDAY at TIME. You should do the readings and work through the homework problems beforehand and we’ll use the meeting time to discuss the materials and review concepts.\nWe’ll try to follow the schedule, but we can be super flexible and make adjustments as needed."
+  },
+  {
+    "objectID": "syllabus.html#course-policies",
+    "href": "syllabus.html#course-policies",
+    "title": "Syllabus",
+    "section": "Course policies",
+    "text": "Course policies\nBe nice. Be honest. Don’t cheat.\nWe will also follow Georgia State’s Code of Conduct."
+  },
+  {
+    "objectID": "syllabus.html#assignments-and-grades",
+    "href": "syllabus.html#assignments-and-grades",
+    "title": "Syllabus",
+    "section": "Assignments and grades",
+    "text": "Assignments and grades\nI’ll give you a grade based on a pass/fail system. Do good work, get an A. There are no exams or quizzes and there’s no formal final project."
+  }
+]
