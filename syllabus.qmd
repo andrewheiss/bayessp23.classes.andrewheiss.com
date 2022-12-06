@@ -1,0 +1,40 @@
+---
+title: "Syllabus"
+page-layout: full
+---
+
+## Course objectives
+
+By the end of this readings course, you will be literate in the language of Bayesian inference and will be able to correctly run Bayesian models using [Stan](https://mc-stan.org/) and [rstanarm](https://mc-stan.org/rstanarm/) and [brms](https://paul-buerkner.github.io/brms/).
+
+
+## Course materials
+
+### Books
+
+We'll be working through one textbook throughout the semester:
+
+> Alicia A. Johnson, Miles Q. Ott, and Mine Dogucu, [**Bayes Rules!** An Introduction to Applied Bayesian Modeling](https://www.bayesrulesbook.com/) (available online for free!)
+
+### Articles, book chapters, and other materials
+
+There will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the page for that week.
+
+
+## Course structure
+
+We'll meet weekly on WEEKDAY at TIME. You should do the readings and work through the homework problems beforehand and we'll use the meeting time to discuss the materials and review concepts.
+
+We'll try to follow [the schedule](/schedule/index.qmd), but we can be super flexible and make adjustments as needed.
+
+
+## Course policies
+
+**Be nice. Be honest. Don't cheat.**
+
+We will also follow [Georgia State's Code of Conduct](https://codeofconduct.gsu.edu/).
+
+
+## Assignments and grades
+
+I'll give you a grade based on a pass/fail system. Do good work, get an A. There are no exams or quizzes and there's no formal final project.

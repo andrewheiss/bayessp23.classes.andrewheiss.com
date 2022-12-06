@@ -1,0 +1,131 @@
+---
+pagetitle: "Bayesian Statistics Readings"
+details: "Hey"
+course-logo: "files/img/no-text@3x.png"
+page-layout: custom
+sidebar: false
+toc: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.align = "center", fig.retina = 3,
+                      dev = "png", dev.args = list(type = "cairo-png"),
+                      collapse = TRUE)
+
+options(digits = 3, width = 120,
+        dplyr.summarise.inform = FALSE,
+        knitr.kable.NA = "")
+```
+
+```{r load-targets, include=FALSE}
+withr::with_dir(here::here(), {
+  targets::tar_load(bayesian_triptych)
+})
+```
+
+```{css echo=FALSE}
+.content-block {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+@media(max-width: 700px) {
+  #home-logo {
+    max-width: 150px;
+    margin: 0 auto;
+  }
+}
+
+@media(min-width: 700px) {
+  #home-logo {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media(min-width: 900px) {
+  .content-block {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-block {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+#home h1,
+#home h2 {
+  text-align: center;
+}
+```
+
+::: {#home}
+
+::: {.content-block}
+
+# Bayesian Statistics
+
+::: {.text-center .text-secondary .fs-4}
+
+Independent readings course on Bayesian statistics with R and Stan
+
+Spring 2023
+
+:::
+
+::: {#home-logo}
+
+```{r echo=FALSE}
+knitr::include_graphics("files/img/text@3x.png")
+```
+
+:::
+
+---
+
+\ 
+
+```{r bayesian-triptych, echo=FALSE}
+#| fig-width: 16
+#| fig-height: 6
+#| fig-align: center
+library(patchwork)
+
+bayesian_triptych$p1 | bayesian_triptych$p2 | bayesian_triptych$p3
+```
+
+$$
+\require{mathtools}
+\definecolor{bayesred}{RGB}{147, 30, 24}
+\definecolor{bayesblue}{RGB}{32, 35, 91}
+\definecolor{bayesorange}{RGB}{218, 120, 1}
+\definecolor{grey}{RGB}{128, 128, 128}
+{\color{bayesorange} P (\text{H} \mid \text{E})} = \frac
+{{\color{bayesred} P(\text{H})} \times 
+{\color{bayesblue}P(\text{E} \mid \text{H})}}
+{\color{grey} {P(\text{E})}}
+$$
+
+$$
+{\color{grey} \overbracket[0.25pt]{\color{bayesorange} P (\text{Unknown} \mid \text{Data})}^{\text{Posterior}}} = \frac
+{{\color{grey} \overbracket[0.25pt]{\color{bayesred} P (\text{Unknown})}^{\text{Prior}}} \times 
+{\color{grey} \overbracket[0.25pt]{\color{bayesblue} P (\text{Data} \mid \text{Unknown})}^{\text{Likelihood}}}}
+{{\color{grey} \underbracket[0.25pt]{{\color{grey} P(\text{E})}}_{\text{Average likelihood}}}}
+$$
+
+$$
+{\color{grey} \overbracket[0.25pt]{\color{bayesred} P (\text{Unknown})}^{\text{Prior}}} \times 
+{\color{grey} \overbracket[0.25pt]{\color{bayesblue} P (\text{Data} \mid \text{Unknown})}^{\text{Likelihood}}} \propto
+{\color{grey} \overbracket[0.25pt]{\color{bayesorange} P (\text{Unknown} \mid \text{Data})}^{\text{Posterior}}}
+$$
+
+:::
+
+:::
